@@ -36,6 +36,10 @@
 		6E643E501AD4300900810F11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E643E511AD4300900810F11 /* __Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __Tests.m; sourceTree = "<group>"; };
 		6E643E5B1AD430C000810F11 /* AFNetwork的详解.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFNetwork的详解.h"; sourceTree = "<group>"; };
+		6EC4806A1AD617AE00F6F278 /* NSURLConnection详解.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURLConnection详解.h"; sourceTree = "<group>"; };
+		6EC4806B1AD6276400F6F278 /* AFNetWork使用.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFNetWork使用.h"; sourceTree = "<group>"; };
+		6EC4806C1AD627B100F6F278 /* 网络访问的标示.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "网络访问的标示.h"; sourceTree = "<group>"; };
+		6EC4806D1AD627DB00F6F278 /* 临时数据的存取.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "临时数据的存取.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,10 @@
 				6E643E3F1AD4300900810F11 /* AppDelegate.h */,
 				6E643E401AD4300900810F11 /* AppDelegate.m */,
 				6E643E5B1AD430C000810F11 /* AFNetwork的详解.h */,
+				6EC4806B1AD6276400F6F278 /* AFNetWork使用.h */,
+				6EC4806A1AD617AE00F6F278 /* NSURLConnection详解.h */,
+				6EC4806C1AD627B100F6F278 /* 网络访问的标示.h */,
+				6EC4806D1AD627DB00F6F278 /* 临时数据的存取.h */,
 				6E643E421AD4300900810F11 /* Images.xcassets */,
 				6E643E441AD4300900810F11 /* LaunchScreen.xib */,
 				6E643E3B1AD4300900810F11 /* Supporting Files */,
@@ -398,6 +406,7 @@
 				6E643E571AD4300900810F11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E643E581AD4300900810F11 /* Build configuration list for PBXNativeTarget "文档Tests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +415,7 @@
 				6E643E5A1AD4300900810F11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
