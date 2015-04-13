@@ -12,6 +12,8 @@
 		6E643E431AD4300900810F11 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E643E421AD4300900810F11 /* Images.xcassets */; };
 		6E643E461AD4300900810F11 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E643E441AD4300900810F11 /* LaunchScreen.xib */; };
 		6E643E521AD4300900810F11 /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E643E511AD4300900810F11 /* __Tests.m */; };
+		6EAD1AA41AD90776004A9A78 /* searchBa背景颜色的修改.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAD1AA31AD90776004A9A78 /* searchBa背景颜色的修改.m */; };
+		6EAD1AAA1AD90B25004A9A78 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAD1AA91AD90B25004A9A78 /* DemoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,12 @@
 		6E643E501AD4300900810F11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E643E511AD4300900810F11 /* __Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __Tests.m; sourceTree = "<group>"; };
 		6E643E5B1AD430C000810F11 /* AFNetwork的详解.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFNetwork的详解.h"; sourceTree = "<group>"; };
+		6E954B2C1ADB4F5F00BBA779 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		6EAD1AA21AD90776004A9A78 /* searchBa背景颜色的修改.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "searchBa背景颜色的修改.h"; sourceTree = "<group>"; };
+		6EAD1AA31AD90776004A9A78 /* searchBa背景颜色的修改.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "searchBa背景颜色的修改.m"; sourceTree = "<group>"; };
+		6EAD1AA81AD90B25004A9A78 /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DemoViewController.h; path = ../DemoViewController.h; sourceTree = "<group>"; };
+		6EAD1AA91AD90B25004A9A78 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DemoViewController.m; path = ../DemoViewController.m; sourceTree = "<group>"; };
+		6EAD1AB11AD91C0B004A9A78 /* 控件语言的切换.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "控件语言的切换.h"; sourceTree = "<group>"; };
 		6EC4806A1AD617AE00F6F278 /* NSURLConnection详解.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURLConnection详解.h"; sourceTree = "<group>"; };
 		6EC4806B1AD6276400F6F278 /* AFNetWork使用.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFNetWork使用.h"; sourceTree = "<group>"; };
 		6EC4806C1AD627B100F6F278 /* 网络访问的标示.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "网络访问的标示.h"; sourceTree = "<group>"; };
@@ -88,6 +96,11 @@
 				6EC4806A1AD617AE00F6F278 /* NSURLConnection详解.h */,
 				6EC4806C1AD627B100F6F278 /* 网络访问的标示.h */,
 				6EC4806D1AD627DB00F6F278 /* 临时数据的存取.h */,
+				6EAD1AA21AD90776004A9A78 /* searchBa背景颜色的修改.h */,
+				6EAD1AA31AD90776004A9A78 /* searchBa背景颜色的修改.m */,
+				6EAD1AA81AD90B25004A9A78 /* DemoViewController.h */,
+				6EAD1AA91AD90B25004A9A78 /* DemoViewController.m */,
+				6EAD1AB11AD91C0B004A9A78 /* 控件语言的切换.h */,
 				6E643E421AD4300900810F11 /* Images.xcassets */,
 				6E643E441AD4300900810F11 /* LaunchScreen.xib */,
 				6E643E3B1AD4300900810F11 /* Supporting Files */,
@@ -222,6 +235,8 @@
 			files = (
 				6E643E411AD4300900810F11 /* AppDelegate.m in Sources */,
 				6E643E3E1AD4300900810F11 /* main.m in Sources */,
+				6EAD1AA41AD90776004A9A78 /* searchBa背景颜色的修改.m in Sources */,
+				6EAD1AAA1AD90B25004A9A78 /* DemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +263,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				6E643E451AD4300900810F11 /* Base */,
+				6E954B2C1ADB4F5F00BBA779 /* zh-Hans */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
