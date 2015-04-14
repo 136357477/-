@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-#include "DemoViewController.h"
+#import "DemoViewController.h"
+#import "CharOrHanZiController.h"
 @interface AppDelegate ()
 
 @end
@@ -18,7 +19,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    DemoViewController *vc = [[DemoViewController alloc]init];
+//    DemoViewController *vc = [[DemoViewController alloc]init];
+    CharOrHanZiController *vc = [[CharOrHanZiController alloc]init];
     self.window.rootViewController = vc;
     
     

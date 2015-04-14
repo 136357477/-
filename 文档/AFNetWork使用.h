@@ -13,12 +13,12 @@
 AFHTTPRequestOperationManager*manager;
 
 manager=[AFHTTPRequestOperationManager manager];
-
+//parameters 是post 使用的
 [manager GET:@"http://10.0.182.123/share_1439/neihan.json" parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
     //responseObject请求好的解析完的数据
     NSLog(@"请求成功~~%@",responseObject);
 } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-    NSLog(@"请求失败");
+    NSLog(@"请求失败~~%@",erro);
 }];
 
 
@@ -30,7 +30,7 @@ manager.responseSerializer.acceptableContentTypes=[NSSet setWithObjects:@"text/h
 
 
 [manager GET:@"http://10.0.8.8/sns/my/login.php?username=erfangdong&password=123456" parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
-    NSLog(@"外网text地址成功~~~");
+    NSLog(@"外网text地址成功~~~%@",responseObject);
 } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
     NSLog(@"请求失败原因~~%@",error);
     
