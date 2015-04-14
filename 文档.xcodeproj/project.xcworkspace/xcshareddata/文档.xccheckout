@@ -11,7 +11,7 @@
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>735D30592E73B6B3FBE842226A47589B8636301D</key>
-		<string>https://github.com/136357477/-.git</string>
+		<string>https://github.com/136357477/Document.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>文档.xcodeproj</string>
@@ -21,7 +21,7 @@
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/136357477/-.git</string>
+	<string>https://github.com/136357477/Document.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
@@ -34,7 +34,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>735D30592E73B6B3FBE842226A47589B8636301D</string>
 			<key>IDESourceControlWCCName</key>
-			<string>%E6%96%87%E6%A1%A3</string>
+			<string>Document</string>
 		</dict>
 	</array>
 </dict>
